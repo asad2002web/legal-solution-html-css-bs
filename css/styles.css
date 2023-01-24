@@ -14,6 +14,8 @@ body{
 .font-eb{
     font-family: 'EB Garamond';
 }
+
+
 /* CSS  */
 .bunner{
     background: linear-gradient(rgba(26, 25, 25, 0.637), rgba(34, 34, 34, 0.522)), url(../images/banner.png);
