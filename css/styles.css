@@ -18,11 +18,14 @@ a{
 .bg-color-primary {
   background-color: #b68c5a;
 }
+
 .font-eb{
     font-family: 'EB Garamond';
 }
 
-
+.btn-hover:hover{
+    background-color: #39260f; 
+}
 /* CSS  */
 .bunner{
     background: linear-gradient(rgba(26, 25, 25, 0.637), rgba(34, 34, 34, 0.522)), url(../images/banner.png);
