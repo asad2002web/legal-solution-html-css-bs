@@ -4,6 +4,13 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
 /* Uses color  */
 .color-primary {
   color: #b68c5a;
@@ -19,7 +26,6 @@ body{
 /* CSS  */
 .bunner{
     background: linear-gradient(rgba(26, 25, 25, 0.637), rgba(34, 34, 34, 0.522)), url(../images/banner.png);
-    /* background:url(../images/banner.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,13 +34,28 @@ body{
 .carousel-item img{
     background: linear-gradient(rgba(21, 21, 21, 0.5), rgba(7, 7, 7, 0.5));
 }
-
-
+.footer-email-btn {
+    position: relative;
+    top: -50px;
+    left: 220px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #B68C5A;
+    color: #fff;
+    border: none;
+}
 /* ---------------------Responsive Designe----------------------- */
 @media only screen and (max-width:575.9px) {
-    .carousel-caption{
-        width: 100%;
-       
+    .footer{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .footer-email-btn {
+        top: 0px;
+        left: -5px;
+    }
+    .footer-menu li{
+        padding: 8px;
     }
     
 }
