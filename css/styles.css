@@ -57,5 +57,8 @@ a{
     .footer-menu li{
         padding: 8px;
     }
-    
+    .frequently-ask-q{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
 }
