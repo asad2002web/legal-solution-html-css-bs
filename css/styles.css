@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
@@ -11,4 +7,19 @@ body{
 /* Uses color  */
 .color-primary {
   color: #b68c5a;
+}
+.bg-color-primary {
+  background-color: #b68c5a;
+}
+.font-eb{
+    font-family: 'EB Garamond';
+}
+/* CSS  */
+.bunner{
+    background: linear-gradient(rgba(26, 25, 25, 0.637), rgba(34, 34, 34, 0.522)), url(../images/banner.png);
+    /* background:url(../images/banner.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
